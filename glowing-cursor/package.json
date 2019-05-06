@@ -1,0 +1,54 @@
+{
+  "_from": "https://www.atom.io/api/packages/glowing-cursor/versions/0.1.2/tarball",
+  "_id": "glowing-cursor@0.1.2",
+  "_inBundle": false,
+  "_integrity": "sha512-q11axEZiM5lIvZP11neAU47CB7nuJ18EvxT3iiivfe22JTqBvL79ItoHz1/HWNelTyHK78PEC7lNT+vQQkChxQ==",
+  "_location": "/glowing-cursor",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/glowing-cursor/versions/0.1.2/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/glowing-cursor/versions/0.1.2/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/glowing-cursor/versions/0.1.2/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/glowing-cursor/versions/0.1.2/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/glowing-cursor/versions/0.1.2/tarball",
+  "_shasum": "7b2d418b54e19c66ce6c22f94633f12dae722d77",
+  "_spec": "https://www.atom.io/api/packages/glowing-cursor/versions/0.1.2/tarball",
+  "_where": "C:\\Users\\pablo\\AppData\\Local\\Temp\\apm-install-dir-119226-19768-1z0tym4.e8et",
+  "bugs": {
+    "url": "https://github.com/Matthew-Smith/atom-glowing-cursor/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "A glowing cursor based on muchWeb's neon cursor",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/Matthew-Smith/atom-glowing-cursor#readme",
+  "keywords": [
+    "ui",
+    "cursor",
+    "neon",
+    "glowing",
+    "steam",
+    "pirate",
+    "pulse",
+    "phase",
+    "colorful",
+    "color"
+  ],
+  "license": "MIT",
+  "main": "./lib/config",
+  "name": "glowing-cursor",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matthew-Smith/atom-glowing-cursor.git"
+  },
+  "version": "0.1.2"
+}
