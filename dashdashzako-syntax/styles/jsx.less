@@ -1,0 +1,26 @@
+@import "colors";
+
+.syntax--jsx, .syntax--js {
+
+  & .syntax-brace {
+    color: @syntax-text-color;
+  }
+
+  & .syntax--entity.syntax--name.syntax--tag {
+    color: @red;
+  }
+
+  & .syntax--meta {
+
+    &.syntax--class {
+        color: @syntax-text-color;
+    }
+
+    &.syntax--method-call,
+    &.syntax--method,
+    &.syntax--tag {
+      color: @syntax-text-color;
+    }
+  }
+
+}

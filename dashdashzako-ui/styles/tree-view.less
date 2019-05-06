@@ -1,0 +1,28 @@
+
+// Tree View
+// -------------------
+
+// Used to explore and open files in the current project.
+// Overrides: atom/tree-view
+
+.tree-view {
+  color: @text-color;
+  background-color: @tree-view-background-color;
+
+  .directory.selected > .header,
+  .file.selected {
+    color: @text-color-selected;
+  }
+
+  .list-item:hover {
+    color: @text-color-selected;
+
+    .icon:before {
+      opacity: 0.6;
+    }
+  }
+
+  .directory > .header {
+    font-weight: bold;
+  }
+}

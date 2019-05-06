@@ -1,0 +1,86 @@
+
+// Base
+// -------------------
+
+// Used for global styles
+// Or to override certain Atom core styles
+
+// -------------------
+
+.scrollbars-visible-always /deep/ {
+  ::-webkit-scrollbar-track,
+  ::-webkit-scrollbar-corner {
+    background-color: @button-border-color;
+  }
+
+  ::-webkit-scrollbar {
+    width: 13px;
+    height: 13px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 0;
+    border: 0;
+    background-color: @button-background-color;
+    background-clip: content-box;
+
+    &:hover {
+      background-color: @button-background-color-hover;
+    }
+  }
+}
+
+// =============================
+
+body {
+  font-size: @font-size;
+  color: @text-color;
+  background-color: @app-background-color;
+}
+
+atom-pane {
+  border-right: 1px solid @base-border-color;
+  &:last-child {
+    border-right: none;
+  }
+}
+
+@toggle-button-size: 45px;
+
+.atom-dock-toggle-button {
+
+  &.top, &.right, &.bottom, &.left {
+    height: @toggle-button-size;
+    width: @toggle-button-size;
+  }
+
+  .atom-dock-toggle-button-inner {
+    &.top,
+    &.right,
+    &.bottom,
+    &.left {
+      .icon {
+        transform: translateY(0px) translateX(0px);
+      }
+    }
+  }
+
+  &:not(.atom-dock-toggle-button-visible) .atom-dock-toggle-button-inner {
+    &.top { transform: translateY(-@toggle-button-size); }
+    &.right { transform: translateX(@toggle-button-size); }
+    &.bottom { transform: translateY(@toggle-button-size); }
+    &.left { transform: translateX(-@toggle-button-size); }
+  }
+
+  .atom-dock-toggle-button-inner {
+    width: 40px;
+    height: 40px;
+    border-radius: 0px;
+    border-width: 0px;
+    background-color: @base-border-color;
+  }
+}
+
+.atom-dock-resize-handle.left.atom-dock-resize-handle-resizable {
+  background-color: @tree-view-background-color;
+}

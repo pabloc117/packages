@@ -1,0 +1,47 @@
+{
+  "_from": "https://www.atom.io/api/packages/dashdashzako-ui/versions/1.2.2/tarball",
+  "_id": "dashdashzako-ui@1.2.2",
+  "_inBundle": false,
+  "_integrity": "sha512-Lx/krHTEeNt+OtMyqLSMfXsGWso9c35N/yNF/W+S0OC51I8TLiwRAqkVefYq3PkL+I3Z1XTBxACI91rfTUGjrQ==",
+  "_location": "/dashdashzako-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/dashdashzako-ui/versions/1.2.2/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/dashdashzako-ui/versions/1.2.2/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/dashdashzako-ui/versions/1.2.2/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/dashdashzako-ui/versions/1.2.2/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/dashdashzako-ui/versions/1.2.2/tarball",
+  "_shasum": "1ac977a4dd8c119b0cb9711470f1d5d8f8ec738b",
+  "_spec": "https://www.atom.io/api/packages/dashdashzako-ui/versions/1.2.2/tarball",
+  "_where": "C:\\Users\\pablo\\AppData\\Local\\Temp\\apm-install-dir-11945-8000-1668dq.rb7ce",
+  "bugs": {
+    "url": "https://github.com/dashdashzako/ddz-atom-ui/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "dashdashzako UI theme inspired by base16 eighties",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/dashdashzako/ddz-atom-ui#readme",
+  "keywords": [
+    "ui",
+    "theme",
+    "base16",
+    "dark"
+  ],
+  "license": "MIT",
+  "name": "dashdashzako-ui",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dashdashzako/ddz-atom-ui.git"
+  },
+  "theme": "ui",
+  "version": "1.2.2"
+}
