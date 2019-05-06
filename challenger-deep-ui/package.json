@@ -1,0 +1,50 @@
+{
+  "_from": "https://www.atom.io/api/packages/challenger-deep-ui/versions/0.7.0/tarball",
+  "_id": "challenger-deep-ui@0.7.0",
+  "_inBundle": false,
+  "_integrity": "sha512-CHy8RDu4Yo/wIFVYeGLWli8YhEV1w7y9G5vzzpvGDade+vmD2TjnTjeS7fugJoy33phS7cFwdT3PYJYBMjk/ug==",
+  "_location": "/challenger-deep-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/challenger-deep-ui/versions/0.7.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/challenger-deep-ui/versions/0.7.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/challenger-deep-ui/versions/0.7.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/challenger-deep-ui/versions/0.7.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/challenger-deep-ui/versions/0.7.0/tarball",
+  "_shasum": "11ed24f1326e2e2b20cee507f430be77713cf2d4",
+  "_spec": "https://www.atom.io/api/packages/challenger-deep-ui/versions/0.7.0/tarball",
+  "_where": "C:\\Users\\pablo\\AppData\\Local\\Temp\\apm-install-dir-11945-14864-12yxirp.nvvd",
+  "bugs": {
+    "url": "https://github.com/PashanIrani/challenger-deep-ui/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Ultra-minimalist theme to match the challenger-deep-syntax",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/PashanIrani/challenger-deep-ui#readme",
+  "keywords": [
+    "bliss",
+    "monochrome",
+    "ui",
+    "theme",
+    "ocean",
+    "spacegray",
+    "challenger-deep"
+  ],
+  "license": "MIT",
+  "name": "challenger-deep-ui",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PashanIrani/challenger-deep-ui.git"
+  },
+  "theme": "ui",
+  "version": "0.7.0"
+}

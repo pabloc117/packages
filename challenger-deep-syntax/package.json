@@ -1,0 +1,47 @@
+{
+  "_from": "https://www.atom.io/api/packages/challenger-deep-syntax/versions/0.17.0/tarball",
+  "_id": "challenger-deep-syntax@0.17.0",
+  "_inBundle": false,
+  "_integrity": "sha512-R9rtoQ+Q1EAEAUYTLJ+fzSJfD2PvM2BatWqgXT0PFRucSY+jAmm2cfMzOX8AvGf1rwGJx+Gp5peydiVybW/BPQ==",
+  "_location": "/challenger-deep-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/challenger-deep-syntax/versions/0.17.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/challenger-deep-syntax/versions/0.17.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/challenger-deep-syntax/versions/0.17.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/challenger-deep-syntax/versions/0.17.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/challenger-deep-syntax/versions/0.17.0/tarball",
+  "_shasum": "3854b53e047ccfbc9e2462fc4017fb1a2fe75417",
+  "_spec": "https://www.atom.io/api/packages/challenger-deep-syntax/versions/0.17.0/tarball",
+  "_where": "C:\\Users\\pablo\\AppData\\Local\\Temp\\apm-install-dir-11945-14592-1vw1qe3.tzlo",
+  "bugs": {
+    "url": "https://github.com/andrewbanchich/challenger-deep-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A fun, colorful theme based on the \"Challenger Deep\" Emacs theme.",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/andrewbanchich/challenger-deep-syntax#readme",
+  "keywords": [
+    "challenger deep",
+    "emacs",
+    "atom",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "challenger-deep-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewbanchich/challenger-deep-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.17.0"
+}
