@@ -1,0 +1,56 @@
+{
+  "_from": "https://www.atom.io/api/packages/open-on-bitbucket/versions/0.5.0/tarball",
+  "_id": "open-on-bitbucket@0.5.0",
+  "_inBundle": false,
+  "_integrity": "sha512-ZScK6HGtXBYqUlKUhSXV0y8fraiS0oLdDUaUEzsTrRJtxKY3Ydmx/ew2oOcG25q2bvK9IjTurnidKrJBZxy6Sg==",
+  "_location": "/open-on-bitbucket",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/open-on-bitbucket/versions/0.5.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/open-on-bitbucket/versions/0.5.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/open-on-bitbucket/versions/0.5.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/open-on-bitbucket/versions/0.5.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/open-on-bitbucket/versions/0.5.0/tarball",
+  "_shasum": "5db292e64166c1f1dce92f2244ac587d984c771c",
+  "_spec": "https://www.atom.io/api/packages/open-on-bitbucket/versions/0.5.0/tarball",
+  "_where": "C:\\Users\\doopl\\AppData\\Local\\Temp\\apm-install-dir-119413-14372-1xs77hk.e957",
+  "activationCommands": {
+    "atom-pane": [
+      "open-on-bitbucket:blame",
+      "open-on-bitbucket:branch-compare",
+      "open-on-bitbucket:copy-url",
+      "open-on-bitbucket:file",
+      "open-on-bitbucket:history",
+      "open-on-bitbucket:issues",
+      "open-on-bitbucket:repository"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/mark-adams/open-on-bitbucket/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "View the active file on Bitbucket Cloud or Server (formerly Stash)",
+  "devDependencies": {
+    "coffeelint": "^1.9.7",
+    "fs-plus": "2.x"
+  },
+  "engines": {
+    "atom": "*"
+  },
+  "homepage": "https://github.com/mark-adams/open-on-bitbucket#readme",
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "open-on-bitbucket",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mark-adams/open-on-bitbucket.git"
+  },
+  "version": "0.5.0"
+}
