@@ -1,0 +1,58 @@
+{
+  "_from": "https://www.atom.io/api/packages/pp-markdown/versions/0.0.2/tarball",
+  "_id": "pp-markdown@0.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-+L/VFMKUU7JUJjzZ31EFnzfn3i1DHkpL9rGX3rXtI252/9ww3hfjNgeYF049DEYVRmqoycpxSyBZycHt4V5PYA==",
+  "_location": "/pp-markdown",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/pp-markdown/versions/0.0.2/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/pp-markdown/versions/0.0.2/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/pp-markdown/versions/0.0.2/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/pp-markdown/versions/0.0.2/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/pp-markdown/versions/0.0.2/tarball",
+  "_shasum": "600d7b68ccba5c8f56e1f8a3d8510cee5bc93770",
+  "_spec": "https://www.atom.io/api/packages/pp-markdown/versions/0.0.2/tarball",
+  "_where": "C:\\Users\\doopl\\AppData\\Local\\Temp\\apm-install-dir-119519-17760-154cjz1.ln4x",
+  "bugs": {
+    "url": "https://github.com/skandasoft/pp-markdown/issues"
+  },
+  "bundleDependencies": false,
+  "consumedServices": {
+    "pp": {
+      "versions": {
+        ">=0.0.0": "consumeAddPreview"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-space-pen-views": ">=2.0.3",
+    "marked": ">=0.3.2"
+  },
+  "deprecated": false,
+  "description": "MarkDown Preview",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/skandasoft/pp-markdown#readme",
+  "keywords": [
+    "markdown",
+    "preview",
+    "live",
+    "html-markdown"
+  ],
+  "license": "MIT",
+  "main": "./lib/pp-markdown",
+  "name": "pp-markdown",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skandasoft/pp-markdown.git"
+  },
+  "version": "0.0.2"
+}
