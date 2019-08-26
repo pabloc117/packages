@@ -1,0 +1,46 @@
+{
+  "_from": "https://www.atom.io/api/packages/delete-whitelines/versions/0.6.4/tarball",
+  "_id": "Delete-Whitelines@0.6.4",
+  "_inBundle": false,
+  "_integrity": "sha512-+ZWW3wnNdRxW6uUQMSlffm1yZ/glc9noUCJg/3a2gfjP5wNPcK1d4hBL61I/L9tzybI8cQvsnMAAwtbNQDbpIg==",
+  "_location": "/Delete-Whitelines",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/delete-whitelines/versions/0.6.4/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/delete-whitelines/versions/0.6.4/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/delete-whitelines/versions/0.6.4/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/delete-whitelines/versions/0.6.4/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/delete-whitelines/versions/0.6.4/tarball",
+  "_shasum": "2c777c1208f443080d78aac82877f849fa368f6e",
+  "_spec": "https://www.atom.io/api/packages/delete-whitelines/versions/0.6.4/tarball",
+  "_where": "C:\\Users\\doopl\\AppData\\Local\\Temp\\apm-install-dir-119726-11064-1mrx7lf.bkdm",
+  "activationCommands": {
+    "atom-workspace": "delete-whitelines:toggle"
+  },
+  "bugs": {
+    "url": "https://github.com/dhwlm/delete-whitelines/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Delete Whitelines is an Atom package for removing empty lines.",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/dhwlm/delete-whitelines#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "./lib/delete-whitelines",
+  "name": "Delete-Whitelines",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhwlm/delete-whitelines.git"
+  },
+  "version": "0.6.4"
+}
