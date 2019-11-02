@@ -1,0 +1,45 @@
+{
+  "_from": "https://www.atom.io/api/packages/s-k-e-l-e-t-o-n-m-a-n-syntax/versions/1.1.0/tarball",
+  "_id": "s-k-e-l-e-t-o-n-m-a-n-syntax@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-Aw3psfgfSdNBQXBfqDTcJBT7OGcgIqmtc4LFIERKTs37GoeqcAbcEU9g+L93JW3gqBQDl+G3eGMwM2HpfAnGEw==",
+  "_location": "/s-k-e-l-e-t-o-n-m-a-n-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/s-k-e-l-e-t-o-n-m-a-n-syntax/versions/1.1.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/s-k-e-l-e-t-o-n-m-a-n-syntax/versions/1.1.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/s-k-e-l-e-t-o-n-m-a-n-syntax/versions/1.1.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/s-k-e-l-e-t-o-n-m-a-n-syntax/versions/1.1.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/s-k-e-l-e-t-o-n-m-a-n-syntax/versions/1.1.0/tarball",
+  "_shasum": "5e7f39d599ef4bb1be9bf6af2867c8942bb8f129",
+  "_spec": "https://www.atom.io/api/packages/s-k-e-l-e-t-o-n-m-a-n-syntax/versions/1.1.0/tarball",
+  "_where": "C:\\Users\\pablo\\AppData\\Local\\Temp\\apm-install-dir-119101-25632-1ffskdo.qfkt",
+  "bugs": {
+    "url": "https://github.com/josh-perry/s-k-e-l-e-t-o-n-m-a-n-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "part-man part-skeleton",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/josh-perry/s-k-e-l-e-t-o-n-m-a-n-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "s-k-e-l-e-t-o-n-m-a-n-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josh-perry/s-k-e-l-e-t-o-n-m-a-n-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "1.1.0"
+}

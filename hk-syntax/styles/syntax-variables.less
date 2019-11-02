@@ -1,0 +1,35 @@
+@import "colors";
+
+// This defines all syntax variables that syntax themes must implement when they
+// include a syntax-variables.less file.
+
+// HK colors
+@hk-orange: hsl(30, 100%, 50%);
+@hk-background-editor: hsl(30, 30%, 5%);
+
+// General colors
+@syntax-text-color: @hk-orange;
+@syntax-cursor-color: @hk-orange;
+@syntax-selection-color: lighten(@hk-background-editor, 10%);
+@syntax-background-color: @hk-background-editor;
+
+// Guide colors
+@syntax-wrap-guide-color: lighten(@hk-background-editor, 10%);
+@syntax-indent-guide-color: lighten(@hk-background-editor, 10%);
+@syntax-invisible-character-color: lighten(@hk-background-editor, 20%);
+
+// For find and replace markers
+@syntax-result-marker-color: @light-gray;
+@syntax-result-marker-color-selected: white;
+
+// Gutter colors
+@syntax-gutter-text-color: @very-light-gray;
+@syntax-gutter-text-color-selected: @syntax-gutter-text-color;
+@syntax-gutter-background-color: @very-dark-gray;
+@syntax-gutter-background-color-selected: @gray;
+
+// For git diff info. i.e. in the gutter
+@syntax-color-renamed: @blue;
+@syntax-color-added: @green;
+@syntax-color-modified: @orange;
+@syntax-color-removed: @red;

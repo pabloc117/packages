@@ -1,0 +1,41 @@
+{
+  "_from": "https://www.atom.io/api/packages/skies-a-blue/versions/2.0.0/tarball",
+  "_id": "skies-a-blue@2.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-3HGWo/1q1+NXYAJKZQKWvs7f6q5QRXK5NughpsGN8eQLQtH8b8bbj2/ahBD/TVSzRivV/GdFNuksi9oqPcPGIA==",
+  "_location": "/skies-a-blue",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/skies-a-blue/versions/2.0.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/skies-a-blue/versions/2.0.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/skies-a-blue/versions/2.0.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/skies-a-blue/versions/2.0.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/skies-a-blue/versions/2.0.0/tarball",
+  "_shasum": "afd030622f97ee6f452bbc68b369136333eae22d",
+  "_spec": "https://www.atom.io/api/packages/skies-a-blue/versions/2.0.0/tarball",
+  "_where": "C:\\Users\\pablo\\AppData\\Local\\Temp\\apm-install-dir-119101-13536-9x17zi.ynxx",
+  "bugs": {
+    "url": "https://github.com/alexchee/atom-skies-a-blue-syntax-theme/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Just the default with a light blue background, as if you're drowning in code or looking up at code heaven.",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/alexchee/atom-skies-a-blue-syntax-theme#readme",
+  "license": "MIT",
+  "name": "skies-a-blue",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexchee/atom-skies-a-blue-syntax-theme.git"
+  },
+  "theme": "syntax",
+  "version": "2.0.0"
+}

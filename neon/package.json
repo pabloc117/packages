@@ -1,0 +1,41 @@
+{
+  "_from": "https://www.atom.io/api/packages/neon/versions/0.2.0/tarball",
+  "_id": "neon@0.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-xD3wKExs9Pf20CdQlI3s0kw6QueID9OQlHMdg6nfUJ8+4y8X3cf9CKEoENhevpNSWiiJY0DgcOC3mojvVrNadA==",
+  "_location": "/neon",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/neon/versions/0.2.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/neon/versions/0.2.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/neon/versions/0.2.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/neon/versions/0.2.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/neon/versions/0.2.0/tarball",
+  "_shasum": "e9239b8f00493cd5a94ad88803fe8de00c86de07",
+  "_spec": "https://www.atom.io/api/packages/neon/versions/0.2.0/tarball",
+  "_where": "C:\\Users\\pablo\\AppData\\Local\\Temp\\apm-install-dir-119101-15560-oq23vh.pxst",
+  "bugs": {
+    "url": "https://github.com/tuks128/atom-neon-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Neon syntax (part of Nette)",
+  "engines": {
+    "atom": "*"
+  },
+  "homepage": "https://github.com/tuks128/atom-neon-syntax#readme",
+  "license": "BSD-3-Clause",
+  "name": "neon",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuks128/atom-neon-syntax.git"
+  },
+  "version": "0.2.0"
+}

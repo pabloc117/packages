@@ -1,0 +1,42 @@
+{
+  "_from": "https://www.atom.io/api/packages/bone-a-kite/versions/1.0.0/tarball",
+  "_id": "bone-a-kite@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-lhdYl59TKdJujikHriYx2PeBE5aPx+dWJIc0K7buWnW0aCx/I079EZaYZt3DdbXt6qeu+4nWrlIHI4DcUuQw1A==",
+  "_location": "/bone-a-kite",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/bone-a-kite/versions/1.0.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/bone-a-kite/versions/1.0.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/bone-a-kite/versions/1.0.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/bone-a-kite/versions/1.0.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/bone-a-kite/versions/1.0.0/tarball",
+  "_shasum": "ade2b45b3da361cf447e92540080a55a084fad4d",
+  "_spec": "https://www.atom.io/api/packages/bone-a-kite/versions/1.0.0/tarball",
+  "_where": "C:\\Users\\pablo\\AppData\\Local\\Temp\\apm-install-dir-119101-12600-iasmjp.forv",
+  "bugs": {
+    "url": "https://github.com/jacobbednarz/atom-bone-a-kite/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Bone-a-kite Theme",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/jacobbednarz/atom-bone-a-kite#readme",
+  "license": "MIT",
+  "name": "bone-a-kite",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacobbednarz/atom-bone-a-kite.git"
+  },
+  "theme": "syntax",
+  "version": "1.0.0"
+}

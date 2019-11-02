@@ -1,0 +1,45 @@
+{
+  "_from": "https://www.atom.io/api/packages/cyber-yeah-ui/versions/0.2.0/tarball",
+  "_id": "cyber-yeah-ui@0.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-9cV7kbj4PFGhJ4Ti/WNHA9NdYN4by6IdXSvSHTfy8K//wVHDMNyrmpCP+xeFZgPZmTCqOW/W1JaxXLr54GZrnw==",
+  "_location": "/cyber-yeah-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/cyber-yeah-ui/versions/0.2.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/cyber-yeah-ui/versions/0.2.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/cyber-yeah-ui/versions/0.2.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/cyber-yeah-ui/versions/0.2.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/cyber-yeah-ui/versions/0.2.0/tarball",
+  "_shasum": "a906c55f8ffecf7e32514c891f0949c82074a938",
+  "_spec": "https://www.atom.io/api/packages/cyber-yeah-ui/versions/0.2.0/tarball",
+  "_where": "C:\\Users\\pablo\\AppData\\Local\\Temp\\apm-install-dir-119101-21664-1xkj9nn.uujj",
+  "bugs": {
+    "url": "https://github.com/rulotico/cyber_yeah/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "The most stylish and neon theme of the world n_n",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/rulotico/cyber_yeah#readme",
+  "keywords": [
+    "ui",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "cyber-yeah-ui",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rulotico/cyber_yeah.git"
+  },
+  "theme": "ui",
+  "version": "0.2.0"
+}

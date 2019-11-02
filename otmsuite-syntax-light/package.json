@@ -1,0 +1,49 @@
+{
+  "_from": "https://www.atom.io/api/packages/otmsuite-syntax-light/versions/1.2.5/tarball",
+  "_id": "otmsuite-syntax-light@1.2.5",
+  "_inBundle": false,
+  "_integrity": "sha512-txq/uzSTpIa5kxhn2bHTCTjn1SmnTV/qq5dUQXWkwDhrHSpEvbrFDwo2xRfgG2i4KgGE+fSmS6ukJCT4faA5tQ==",
+  "_location": "/otmsuite-syntax-light",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/otmsuite-syntax-light/versions/1.2.5/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/otmsuite-syntax-light/versions/1.2.5/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/otmsuite-syntax-light/versions/1.2.5/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/otmsuite-syntax-light/versions/1.2.5/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/otmsuite-syntax-light/versions/1.2.5/tarball",
+  "_shasum": "aa477d33ddca16cfb2be893cde2b084fca37ed55",
+  "_spec": "https://www.atom.io/api/packages/otmsuite-syntax-light/versions/1.2.5/tarball",
+  "_where": "C:\\Users\\pablo\\AppData\\Local\\Temp\\apm-install-dir-119101-21688-fd2wll.zxpjv",
+  "bugs": {
+    "url": "https://github.com/otm-stev/otmsuite-syntax-light/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Tema claro para a linguagem da OTMSuite",
+  "engines": {
+    "atom": ">=1.0.0"
+  },
+  "homepage": "https://github.com/otm-stev/otmsuite-syntax-light#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "OTMSuite",
+    "OTM",
+    "Suite",
+    "Light"
+  ],
+  "license": "MIT",
+  "name": "otmsuite-syntax-light",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otm-stev/otmsuite-syntax-light.git"
+  },
+  "theme": "syntax",
+  "version": "1.2.5"
+}

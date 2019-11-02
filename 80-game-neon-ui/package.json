@@ -1,0 +1,45 @@
+{
+  "_from": "https://www.atom.io/api/packages/80-game-neon-ui/versions/2.1.0/tarball",
+  "_id": "80-game-neon-ui@2.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-S64SWNlwvgW2Pjk19w2LmBer1I9W3+aJbO96cylfAto6++QlVx+1+9Y3LMHKThGf9K2WLW0ZMKKsYVeCa4ip3Q==",
+  "_location": "/80-game-neon-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/80-game-neon-ui/versions/2.1.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/80-game-neon-ui/versions/2.1.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/80-game-neon-ui/versions/2.1.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/80-game-neon-ui/versions/2.1.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/80-game-neon-ui/versions/2.1.0/tarball",
+  "_shasum": "3fb8026a05aae65a94f4d306b383dbe15fafadc4",
+  "_spec": "https://www.atom.io/api/packages/80-game-neon-ui/versions/2.1.0/tarball",
+  "_where": "C:\\Users\\pablo\\AppData\\Local\\Temp\\apm-install-dir-119101-36888-fm6p0i.qd0r8",
+  "bugs": {
+    "url": "https://github.com/afmarchetti/80-game-neon-ui/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Cool UI Theme for Atom based on 80's neon colors with big tabs for easy files Switch.",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/afmarchetti/80-game-neon-ui#readme",
+  "keywords": [
+    "ui",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "80-game-neon-ui",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afmarchetti/80-game-neon-ui.git"
+  },
+  "theme": "ui",
+  "version": "2.1.0"
+}

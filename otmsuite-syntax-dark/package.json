@@ -1,0 +1,49 @@
+{
+  "_from": "https://www.atom.io/api/packages/otmsuite-syntax-dark/versions/1.2.5/tarball",
+  "_id": "otmsuite-syntax-dark@1.2.5",
+  "_inBundle": false,
+  "_integrity": "sha512-OBjPEOphr3Ad+lIxRHn0iYMzF5sZtArvWQUlVVprOMqKyYFNPKy53jWFasf16GZVd1AsKivGA4m6rFqZnuH11g==",
+  "_location": "/otmsuite-syntax-dark",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/otmsuite-syntax-dark/versions/1.2.5/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/otmsuite-syntax-dark/versions/1.2.5/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/otmsuite-syntax-dark/versions/1.2.5/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/otmsuite-syntax-dark/versions/1.2.5/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/otmsuite-syntax-dark/versions/1.2.5/tarball",
+  "_shasum": "0b7a8f8c9b821ceecff24c88048c6ca2cc02f4d0",
+  "_spec": "https://www.atom.io/api/packages/otmsuite-syntax-dark/versions/1.2.5/tarball",
+  "_where": "C:\\Users\\pablo\\AppData\\Local\\Temp\\apm-install-dir-119101-11084-18qxxea.ordb",
+  "bugs": {
+    "url": "https://github.com/otm-stev/otmsuite-syntax-dark/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Tema escuro para a linguagem da OTMSuite",
+  "engines": {
+    "atom": ">=1.0.0"
+  },
+  "homepage": "https://github.com/otm-stev/otmsuite-syntax-dark#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "OTMSuite",
+    "OTM",
+    "Suite",
+    "Dark"
+  ],
+  "license": "MIT",
+  "name": "otmsuite-syntax-dark",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otm-stev/otmsuite-syntax-dark.git"
+  },
+  "theme": "syntax",
+  "version": "1.2.5"
+}

@@ -1,0 +1,47 @@
+{
+  "_from": "https://www.atom.io/api/packages/textmate-menage-a-trois-syntax/versions/0.1.0/tarball",
+  "_id": "textmate-menage-a-trois-syntax@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-97qn/a6+k2sT3RgKYhd2Rr/KeZaaZI4huEU4sZhpz50wP9rUEB4rMetmZegdIUxV5rqAgx39pDF0kb+FJhlxzw==",
+  "_location": "/textmate-menage-a-trois-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/textmate-menage-a-trois-syntax/versions/0.1.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/textmate-menage-a-trois-syntax/versions/0.1.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/textmate-menage-a-trois-syntax/versions/0.1.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/textmate-menage-a-trois-syntax/versions/0.1.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/textmate-menage-a-trois-syntax/versions/0.1.0/tarball",
+  "_shasum": "9b97d56dbf5a87b7d2d2d63427c1d3e4dda60c09",
+  "_spec": "https://www.atom.io/api/packages/textmate-menage-a-trois-syntax/versions/0.1.0/tarball",
+  "_where": "C:\\Users\\pablo\\AppData\\Local\\Temp\\apm-install-dir-119101-37488-3puhy8.3i49y",
+  "bugs": {
+    "url": "https://github.com/phthhieu/textmate-menage-a-trois-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Textmate menage-a-trois theme for Atom",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/phthhieu/textmate-menage-a-trois-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "textmate",
+    "menage-a-trois"
+  ],
+  "license": "MIT",
+  "name": "textmate-menage-a-trois-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phthhieu/textmate-menage-a-trois-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.1.0"
+}

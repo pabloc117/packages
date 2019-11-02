@@ -1,0 +1,45 @@
+{
+  "_from": "https://www.atom.io/api/packages/hk-syntax/versions/0.0.2/tarball",
+  "_id": "hk-syntax@0.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-aWXNC4SapU5H1nMWDaY7caMUceeJ40Z6b+Sr8r2jSio8wQKowAWzuZbjFC9J5U3I5Fx3KO2g80itYl6Ar6XJ3g==",
+  "_location": "/hk-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/hk-syntax/versions/0.0.2/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/hk-syntax/versions/0.0.2/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/hk-syntax/versions/0.0.2/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/hk-syntax/versions/0.0.2/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/hk-syntax/versions/0.0.2/tarball",
+  "_shasum": "1c1fb512ccbd01b3115afa68beca6b90d5f316b6",
+  "_spec": "https://www.atom.io/api/packages/hk-syntax/versions/0.0.2/tarball",
+  "_where": "C:\\Users\\pablo\\AppData\\Local\\Temp\\apm-install-dir-119101-20364-1bf4xau.tnai",
+  "bugs": {
+    "url": "https://github.com/alxprd/hk-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A short description of your syntax theme",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/alxprd/hk-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "hk-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alxprd/hk-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.0.2"
+}

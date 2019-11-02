@@ -1,0 +1,46 @@
+{
+  "_from": "https://www.atom.io/api/packages/take-a-note-syntax/versions/0.3.0/tarball",
+  "_id": "take-a-note-syntax@0.3.0",
+  "_inBundle": false,
+  "_integrity": "sha512-GTUC0KuGIZK5kv6th30NEfg0GfHqZ4JV+gD5W9lm55DlByj9Q3y48nRu3EfI7E7P5FdU8TvInKNBzIGFm1L+HQ==",
+  "_location": "/take-a-note-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/take-a-note-syntax/versions/0.3.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/take-a-note-syntax/versions/0.3.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/take-a-note-syntax/versions/0.3.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/take-a-note-syntax/versions/0.3.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/take-a-note-syntax/versions/0.3.0/tarball",
+  "_shasum": "b0ced768d0bee5b51a4b8687a42e0d7ce6e272ef",
+  "_spec": "https://www.atom.io/api/packages/take-a-note-syntax/versions/0.3.0/tarball",
+  "_where": "C:\\Users\\pablo\\AppData\\Local\\Temp\\apm-install-dir-119101-29804-b47e4x.1ooop",
+  "bugs": {
+    "url": "https://github.com/balintx99/take-a-note-syntax-atom/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "This is a syntax, created for quick notes with a cleaner look",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/balintx99/take-a-note-syntax-atom#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "note"
+  ],
+  "license": "MIT",
+  "name": "take-a-note-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balintx99/take-a-note-syntax-atom.git"
+  },
+  "theme": "syntax",
+  "version": "0.3.0"
+}

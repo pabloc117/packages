@@ -1,0 +1,45 @@
+{
+  "_from": "https://www.atom.io/api/packages/jurassicsystems-syntax/versions/0.1.5/tarball",
+  "_id": "jurassicsystems-syntax@0.1.5",
+  "_inBundle": false,
+  "_integrity": "sha512-LiwNRDm2LYYfT6lEGRD9hAfqAsOG56v7EzDGmP7P1nhAPhSDSM1B6k7M4l+0IT98DfJan1zNvkHNt6fqYE8+ZQ==",
+  "_location": "/jurassicsystems-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/jurassicsystems-syntax/versions/0.1.5/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/jurassicsystems-syntax/versions/0.1.5/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/jurassicsystems-syntax/versions/0.1.5/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/jurassicsystems-syntax/versions/0.1.5/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/jurassicsystems-syntax/versions/0.1.5/tarball",
+  "_shasum": "98be6b5f794944993b07bb653dd52531f053542b",
+  "_spec": "https://www.atom.io/api/packages/jurassicsystems-syntax/versions/0.1.5/tarball",
+  "_where": "C:\\Users\\pablo\\AppData\\Local\\Temp\\apm-install-dir-119101-35068-1wdahmo.lkkdj",
+  "bugs": {
+    "url": "https://github.com/laus102/jurassicsystems-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A syntax theme inspired by Dennis Nedry’s 'Jurassic Systems, System Security Interface Version 4.0.5, Alpha E'",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/laus102/jurassicsystems-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "jurassicsystems-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laus102/jurassicsystems-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.1.5"
+}

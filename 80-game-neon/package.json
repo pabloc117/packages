@@ -1,0 +1,45 @@
+{
+  "_from": "https://www.atom.io/api/packages/80-game-neon/versions/2.1.0/tarball",
+  "_id": "80-game-neon@2.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-hpnd78qvxABc6pIMZP69b5szG3kqS5D1EPZWF7uPmktiFmKvBt6sDU5jP5QtnP/syJHqts+cfh/A5KkvMYA3uA==",
+  "_location": "/80-game-neon",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/80-game-neon/versions/2.1.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/80-game-neon/versions/2.1.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/80-game-neon/versions/2.1.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/80-game-neon/versions/2.1.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/80-game-neon/versions/2.1.0/tarball",
+  "_shasum": "8c408ce996f421487100c38e7cda9bb5f16c9593",
+  "_spec": "https://www.atom.io/api/packages/80-game-neon/versions/2.1.0/tarball",
+  "_where": "C:\\Users\\pablo\\AppData\\Local\\Temp\\apm-install-dir-119101-21516-1a3en0s.d8vf",
+  "bugs": {
+    "url": "https://github.com/afmarchetti/80-game-neon/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Cool Syntax Theme for Atom based on 80's neon colors",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/afmarchetti/80-game-neon#readme",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "80-game-neon",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afmarchetti/80-game-neon.git"
+  },
+  "theme": "syntax",
+  "version": "2.1.0"
+}
