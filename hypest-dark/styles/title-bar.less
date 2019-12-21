@@ -1,0 +1,11 @@
+.title-bar {
+  background: linear-gradient(180deg, @title-bar-stop-1, @title-bar-stop-2);
+  border-bottom: 1px solid @mid-color;
+}
+
+.is-blurred {
+  .title-bar {
+    background: @dark-color;
+    border-bottom: 1px solid fade(@mid-color, 50%);
+  }
+}

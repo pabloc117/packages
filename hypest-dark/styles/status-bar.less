@@ -1,0 +1,187 @@
+// Status Bar
+// -------------------
+
+// Located at the bottom.
+// Displays information about the current editor.
+// Overrides: atom/status-bar
+
+.status-bar {
+  font-size: @font-size;
+  line-height: 28px;
+  height: 28px;
+  color: @text-color;
+  border-top: 1px solid @mid-color;
+  background-color: darken(@dark-color, 5%);
+
+  .status-bar-left,
+  .status-bar-right {
+    display: flex;
+    align-items: stretch;
+
+    busy-signal {
+      padding: 0 8px;
+    }
+
+    .line-ending-tile {
+      padding: 0 8px;
+      flex-shrink: 0;
+
+      &:empty {
+        display: none;
+      }
+    }
+
+    a {
+      transition: background ease 0.2s;
+
+      &:hover {
+        text-decoration: none;
+        background: @mid-color;
+      }
+    }
+
+    .inline-block {
+      margin: 0;
+    }
+
+    .inline-block .inline-block,
+    .github-StatusBarTileController .inline-block {
+      padding: 0 8px;
+      display: inline-flex;
+      align-items: center;
+    }
+
+    .deprecation-cop-status {
+      padding: 0 8px;
+      cursor: pointer;
+      transition: background ease 0.2s;
+
+      &:hover {
+        background: @mid-color;
+      }
+    }
+
+    encoding-selector-status,
+    grammar-selector-status {
+      flex-shrink: 0;
+    }
+
+    status-bar-cursor {
+      flex-shrink: 0;
+    }
+
+    status-bar-selection {
+      flex-shrink: 0;
+      color: @text-color-subtle;
+    }
+
+    status-bar-file {
+      display: inline-flex;
+      align-items: stretch;
+      min-width: 0;
+
+      &::after {
+        display: none;
+      }
+
+      &.buffer-modified {
+        a::after {
+          content: "";
+          position: relative;
+          display: inline-block;
+          width: 6px;
+          height: 6px;
+          margin-left: 6px;
+          top: -1px;
+          border-radius: 50%;
+          background: @text-color-info;
+        }
+      }
+
+      a {
+        display: block;
+        width: 100%;
+        padding: 0 8px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+      }
+    }
+
+    .github-StatusBarTileController {
+      display: inline-flex;
+      align-items: stretch;
+
+      > .inline-block {
+        cursor: pointer;
+        transition: background ease 0.2s;
+
+        &:hover {
+          text-decoration: none;
+          background: @mid-color;
+        }
+      }
+
+      .github-PushPull,
+      .github-StatusBarTitle,
+      .github-ChangedFilesCount {
+        flex-shrink: 0;
+      }
+
+      .github-branch {
+        flex: 1 1 20%;
+      }
+
+      .branch-label {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+      }
+    }
+
+    status-bar-launch-mode {
+      flex-shrink: 0;
+      padding: 0 8px;
+      &::before {
+        content: "\f0dd";
+        color: @text-color-warning;
+        margin: 0;
+        top: 0;
+      }
+    }
+  }
+
+  .package-updates-status-view {
+    position: relative;
+    padding: 0 8px !important;
+    border-radius: 12px;
+    line-height: 21px;
+    margin: 3px 0 3px 8px !important;
+    cursor: pointer;
+    color: @white-color;
+    background: @blue-color;
+    transition: color ease 0.2s, background ease 0.2s !important;
+
+    &:hover {
+      text-decoration: none;
+      background: darken(@blue-color, 5%);
+    }
+  }
+
+  .status-bar-right {
+    justify-content: flex-end;
+  }
+}
+
+.status-bar .status-bar-left status-bar-launch-mode::before,
+.status-bar .status-bar-right status-bar-launch-mode::before {
+  color: #C751FF;
+}
+
+.is-blurred {
+  .status-bar {
+    > * {
+      opacity: .6;
+    }
+  }
+}

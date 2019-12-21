@@ -1,0 +1,313 @@
+html.hypest-vibrancy {
+  background: transparent;
+
+  body {
+    background-color: fade(@app-background-color, 40%);
+  }
+
+  atom-workspace,
+  atom-pane {
+    background: transparent;
+  }
+
+  atom-panel-container.header .tool-panel,
+  atom-panel-container.footer .tool-panel {
+    background: transparent;
+  }
+
+  atom-panel-container.left atom-pane,
+  atom-panel-container.left atom-pane .tree-view,
+  atom-panel-container.right atom-pane,
+  atom-panel-container.right atom-pane .tree-view {
+    background: transparent;
+  }
+
+  atom-panel-container.left .atom-dock-mask,
+  atom-panel-container.right .atom-dock-mask {
+    background: transparent;
+  }
+
+  atom-panel-container.left .tab-bar,
+  atom-panel-container.right .tab-bar {
+    background: transparent;
+    box-shadow: none;
+
+    .tab {
+      background-color: fade(@white-color, 30%);
+      box-shadow: none !important;
+      background-clip: padding-box;
+      margin: 0;
+      height: 32px;
+      border-bottom: 1px solid fade(@dark-color, 20%);
+      border-left: 1px solid fade(@dark-color, 20%);
+
+      &:hover {
+        background-color: fade(@white-color, 40%);
+      }
+
+      &.active {
+        height: 32px;
+        background-color: fade(@white-color, 60%);
+        border-bottom: 1px solid fade(@dark-color, 20%);
+        border-left: 1px solid fade(@dark-color, 20%);
+      }
+
+      &:first-child {
+        border-left: none;
+      }
+
+      &[data-type="TreeView"]:only-child {
+        background-color: transparent !important;
+        border-bottom: none;
+      }
+    }
+  }
+
+  atom-workspace-axis.vertical atom-pane-container .tab-bar {
+    background: transparent;
+  }
+
+  atom-panel-container.left {
+    box-shadow: inset -1px 0 0 fade(@dark-color, 20%);
+    padding-right: 1px;
+    border: none;
+    margin-left: -1px;
+
+    .atom-dock-inner {
+      padding-left: 1px;
+    }
+  }
+
+  atom-panel-container.right {
+    box-shadow: inset 1px 0 0 fade(@dark-color, 20%);
+    padding-left: 1px;
+    border: none;
+    margin-right: -1px;
+
+    .atom-dock-inner {
+      padding-right: 1px;
+    }
+  }
+
+  .tree-view .list-item,
+  .tree-view .list-nested-item {
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+    &.selected::before {
+      background: fade(@dark-color, 20%);
+    }
+  }
+
+  .tree-view:focus-within {
+    .list-item.selected,
+    .list-nested-item.selected {
+      &::before {
+        background: fade(@background-color-selected, 80%);
+      }
+    }
+  }
+
+  .title-bar {
+    border-bottom: none;
+    margin-bottom: 1px;
+    box-shadow: 0 1px 0 fade(@mid-color, 70%);
+    background: linear-gradient(
+      180deg,
+      fade(@title-bar-stop-1, 75%) 0%,
+      fade(@title-bar-stop-2, 75%) 100%
+    );
+  }
+
+  .tab-bar {
+    box-shadow: inset 0 -1px 0 fade(@mid-color, 70%);
+
+    .tab {
+      background: fade(@tab-background-color, 70%);
+      box-shadow: 1px 0 0 fade(@mid-color, 70%);
+      height: 31px;
+      margin-bottom: 1px;
+
+      &:hover {
+        background: fade(@mid-color, 70%);
+      }
+
+      &.active {
+        background: fade(@title-bar-stop-2, 75%);
+        box-shadow: 1px 0 0 fade(@mid-color, 70%),
+          0 -1px 0 fade(@mid-color, 70%);
+        height: 31px;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .status-bar {
+    box-shadow: none;
+    border-top: 1px solid fade(@dark-color, 20%);
+    background-clip: padding-box;
+    background: fade(@dark-color, 5%);
+  }
+
+  .github-CommitView-buttonWrapper,
+  .github-RecentCommits,
+  .github-StagingView-headerButton,
+  .github-StagingView-header,
+  .github-Reviews-section,
+  .github-Reviews-topHeader,
+  .github-ReviewSummary,
+  .github-Review-footer,
+  .github-Review-comments,
+  .github-Review-nav,
+  .github-Review-navButton,
+  .github-Review-reference,
+  .github-Review,
+  .github-Accordion,
+  .github-Accordion-content {
+    border-color: fade(@dark-color, 20%);
+  }
+
+  .github-StagingView-header,
+  .github-Reviews-topHeader {
+    background: fade(@white-color, 20%);
+  }
+
+  .github-StagingView-headerButton {
+    &:hover {
+      background: fade(@dark-color, 5%);
+    }
+  }
+
+  .github-Accordion-listItem {
+    border: 0;
+    box-shadow: 0 1px 0 fade(@dark-color, 20%);
+    margin-bottom: 1px;
+
+    &:last-child {
+      margin-bottom: 0;
+      box-shadow: 0;
+    }
+  }
+
+  .github-Git,
+  .github-GitHub,
+  .github-Reviews {
+    background-color: transparent;
+  }
+
+  .github-Review,
+  .github-ReviewSummary {
+    background-color: fade(@white-color, 90%);
+    border: 0;
+    box-shadow: 0 0 0 1px fade(@dark-color, 20%);
+  }
+
+  .github-Accordion-content {
+    background-color: fade(@white-color, 90%);
+    border: 0;
+    box-shadow: 0 0 0 1px fade(@dark-color, 20%);
+  }
+
+  .github-GitHub-LargeIcon.icon:before,
+  .github-Git-LargeIcon.icon:before {
+    color: fade(@dark-color, 20%);
+  }
+
+  .github-StagingView {
+    .github-FilePatchListView-item:hover {
+      background: fade(@dark-color, 5%);
+    }
+    .github-FilePatchListView-item.is-selected {
+      background: fade(@dark-color, 25%) !important;
+    }
+    &:focus-within {
+      .github-FilePatchListView-item.is-selected {
+        background: fade(@background-color-selected, 85%) !important;
+      }
+    }
+  }
+
+  .github-RecentCommits {
+    li:hover {
+      background: fade(@dark-color, 5%);
+    }
+    li.is-selected {
+      background: fade(@dark-color, 25%) !important;
+    }
+    &:focus-within {
+      li.is-selected {
+        background: fade(@background-color-selected, 85%) !important;
+      }
+    }
+  }
+
+  .status-bar-left,
+  .status-bar-right {
+    a:hover,
+    .deprecation-cop-status:hover,
+    .github-StatusBarTileController > .inline-block:hover,
+    .PortalStatusBarIndicator .icon:hover {
+      background: fade(@dark-color, 5%);
+    }
+    .linter-status-count a.text-warning:hover {
+      background: @orange-color;
+    }
+    .linter-status-count a.text-error:hover {
+      background: darken(@red-color, 15%);
+    }
+    .PortalStatusBarIndicator .icon.transmitting:hover {
+      background: darken(@blue-color, 5%);
+    }
+  }
+
+  .no-title-bar:not(.fullscreen).custom-inset-title-bar > atom-workspace atom-panel-container.left,
+  .no-title-bar:not(.fullscreen).custom-title-bar > atom-workspace atom-panel-container.left {
+    background: transparent;
+  }
+}
+
+html.hypest-vibrancy body.is-blurred {
+  background: @lighter-color;
+
+  .title-bar {
+    background: fade(@light-color, 80%) !important;
+    box-shadow: 0 1px 0 fade(@mid-color, 50%);
+  }
+
+  .tab-bar {
+    box-shadow: fade(@mid-color, 40%);
+  }
+
+  .tab {
+    background: fade(@mid-color, 20%) !important;
+    box-shadow: 1px 0 0 fade(@mid-color, 40%) !important;
+  }
+
+  .tab.active {
+    background: fade(@light-color, 80%) !important;
+  }
+
+  atom-panel-container.left .tab-bar,
+  atom-panel-container.right .tab-bar {
+    background: transparent !important;
+    box-shadow: none !important;
+
+    .tab,
+    .tab.active {
+      color: @text-color-subtle !important;
+      border-bottom-color: fade(@mid-color, 40%) !important;
+      border-right-color: fade(@mid-color, 40%) !important;
+      box-shadow: none !important;
+
+      &[data-type="TreeView"]:only-child {
+        background: transparent !important;
+        border: 0;
+        box-shadow: none !important;
+      }
+    }
+
+    .tab.active {
+      background: fade(@light-color, 80%) !important;
+    }
+  }
+}

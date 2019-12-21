@@ -1,0 +1,113 @@
+// UI Variables
+// -------------------
+
+// These are the official UI variables that every UI theme should define.
+// It allows other packages to match your theme.
+
+// Overrides: atom/static/variables/ui-variables.less
+
+// Try to edit some of the values below to see your theme change.
+// A good start is to change the color of the `@base-background-color` variable.
+
+// Base colors
+@base-background-color: @white-color;
+@base-border-color: #dad9db;
+
+@black-color: #000;
+@darker-color: #161616;
+@dark-color: #222;
+@mid-color: #a8a8a8;
+@light-color: #f2f2f2;
+@lighter-color: #fafafa;
+@white-color: #fff;
+
+@blue-color: #0095ff;
+@green-color: #00cb24;
+@orange-color: #ff8d18;
+@red-color: #ff3f3f;
+
+// Text Colors
+@text-color: fade(@dark-color, 80%);
+@text-color-subtle: fade(@dark-color, 40%);
+@text-color-highlight: fade(@dark-color, 90%);
+@text-color-selected: fade(@white-color, 90%);
+
+@text-color-info: @blue-color;
+@text-color-success: @green-color;
+@text-color-warning: @orange-color;
+@text-color-error: @red-color;
+
+// Background colors
+@background-color-info: @blue-color;
+@background-color-success: @green-color;
+@background-color-warning: @orange-color;
+@background-color-error: @red-color;
+
+@background-color-highlight: fade(@black-color, 25%);
+@background-color-selected: @blue-color;
+@app-background-color: @base-background-color;
+
+// Component colors
+@pane-item-background-color: @base-background-color;
+@pane-item-border-color: @base-border-color;
+
+@input-background-color: @app-background-color;
+@input-border-color: @base-border-color;
+
+@tool-panel-background-color: @base-background-color;
+@tool-panel-border-color: @base-border-color;
+
+@inset-panel-background-color: @base-background-color;
+@inset-panel-border-color: @base-border-color;
+
+@panel-heading-background-color: @base-background-color;
+@panel-heading-border-color: @base-border-color;
+
+@overlay-background-color: @base-background-color;
+@overlay-border-color: @base-border-color;
+
+@button-background-color: @base-background-color;
+@button-background-color-hover: @button-background-color;
+@button-background-color-selected: @button-background-color-hover;
+@button-border-color: @base-border-color;
+
+@tree-view-background-color: @light-color;
+@tree-view-border-color: @base-border-color;
+
+@region-selection-color: #cfe9ff;
+
+// Site colors
+@ui-site-color-1: hsl(208, 100%, 50%); // blue
+@ui-site-color-2: hsl(160, 70%, 420%); // green
+@ui-site-color-3: hsl(32, 60%, 50%); // orange
+@ui-site-color-4: #d831b0; // pink
+@ui-site-color-5: #ebdd5b; // yellow
+
+// Sizes
+@font-size: 12px;
+@input-font-size: 14px;
+
+@disclosure-arrow-size: 12px;
+
+@component-padding: 10px;
+@component-icon-padding: 5px;
+@component-icon-size: 16px;
+@component-line-height: 25px;
+
+// Title Bar
+@title-bar-stop-1: #e5e7e6;
+@title-bar-stop-2: #d4d4d4;
+
+// Tabs
+@tab-height: 32px;
+
+@tab-bar-background-color: #dadadb;
+@tab-bar-border-color: @base-border-color;
+@tab-background-color: #b8b8b8;
+@tab-background-color-active-1: #d3d3d2;
+@tab-background-color-active-2: #cdcdcc;
+@tab-border-color: @base-border-color;
+
+// Misc
+@component-border-radius: 3px;
+@font-family: system-ui;

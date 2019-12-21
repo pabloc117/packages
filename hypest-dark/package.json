@@ -1,0 +1,91 @@
+{
+  "_from": "https://www.atom.io/api/packages/hypest-dark/versions/0.6.2/tarball",
+  "_id": "hypest-dark@0.6.2",
+  "_inBundle": false,
+  "_integrity": "sha512-ZADqbtAXTtsvgWrW7pkeniKeyGSps1YamNgcxkA8SxfSwJnac2LqiEVcOyokEUsBaWS9RIVKoN2OZyrSixX0eQ==",
+  "_location": "/hypest-dark",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/hypest-dark/versions/0.6.2/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/hypest-dark/versions/0.6.2/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/hypest-dark/versions/0.6.2/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/hypest-dark/versions/0.6.2/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/hypest-dark/versions/0.6.2/tarball",
+  "_shasum": "46e3a090440c207e27e86b9f09de9bd7f2d3daba",
+  "_spec": "https://www.atom.io/api/packages/hypest-dark/versions/0.6.2/tarball",
+  "_where": "C:\\Users\\pablo\\AppData\\Local\\Temp\\apm-install-dir-119101-4072-g3096u.jfnip",
+  "author": {
+    "name": "Hector Simpson",
+    "url": "https://hector.me"
+  },
+  "bugs": {
+    "url": "https://github.com/dizzyup/hypest-dark/issues"
+  },
+  "bundleDependencies": false,
+  "configSchema": {
+    "vibrancy": {
+      "title": "Enable vibrancy",
+      "description": "Enables tranclucency effects for parts of the window.",
+      "type": "boolean",
+      "default": "false",
+      "order": 1
+    },
+    "syntaxTheme": {
+      "title": "Match syntax theme",
+      "description": "Matches the text editor styles to your syntax theme.",
+      "type": "string",
+      "default": "Detect automatically",
+      "enum": [
+        "Detect automatically",
+        "Always match dark theme",
+        "Always match light theme"
+      ],
+      "order": 2
+    },
+    "tabCloseButton": {
+      "title": "Tab close button position",
+      "description": "Choose the position of the close button shown in tabs.",
+      "type": "string",
+      "default": "Left",
+      "enum": [
+        "Left",
+        "Right"
+      ],
+      "order": 3
+    },
+    "hideDockButtons": {
+      "title": "Hide dock toggle buttons",
+      "description": "Showing and hidings docks will require keyboard shortcuts once enabled.",
+      "type": "boolean",
+      "default": "false",
+      "order": 4
+    }
+  },
+  "deprecated": false,
+  "description": "A dark, native and refined UI theme for Atom",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/dizzyup/hypest-dark#readme",
+  "keywords": [
+    "ui",
+    "theme",
+    "mac",
+    "dark"
+  ],
+  "license": "MIT",
+  "main": "lib/hypest-ui",
+  "name": "hypest-dark",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dizzyup/hypest-dark.git"
+  },
+  "theme": "ui",
+  "version": "0.6.2"
+}

@@ -1,0 +1,218 @@
+// Tabs
+// -------------------
+
+// Displays selectable tabs above the editor.
+// Overrides: atom/tabs
+
+.tab-bar {
+  overflow-x: auto;
+  overflow-y: hidden;
+  background: @mid-color;
+  height: 32px;
+  border-radius: 0;
+
+  &:empty {
+    height: 0px;
+  }
+
+  .tab {
+    text-align: center;
+    color: fade(@text-color, 70%);
+    height: @tab-height;
+    line-height: @tab-height;
+    font-size: @font-size;
+    min-width: 120px;
+    flex: 1 1 100%;
+    padding: 0 24px;
+    max-width: 100%;
+    margin-right: 1px;
+    background: @tab-background-color;
+    box-shadow: inset 0 -1px 0 0 @mid-color;
+
+    &:hover {
+      color: @text-color;
+      background: darken(@dark-color, 10%);
+    }
+
+    &.active {
+      flex: 1 1 100%;
+      color: @white-color;
+      background-image: linear-gradient(
+        @tab-background-color-active-1,
+        @tab-background-color-active-2
+      );
+      box-shadow: inset 0 -1px 0 @mid-color;
+      transition: none;
+    }
+
+    &:last-child {
+      margin: 0;
+    }
+
+    &.modified::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: 9px;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      margin-top: -3px;
+      opacity: 1;
+      background: fade(@text-color, 70%);
+    }
+
+    &.active.modified::after {
+      background: @text-color-info;
+    }
+
+    .close-icon,
+    &.modified .close-icon,
+    &.modified:not(:hover) .close-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: @text-color;
+      width: 16px;
+      height: 16px;
+      top: 8px;
+      left: 6px;
+      right: auto;
+      border: none;
+      opacity: 0;
+      border-radius: 2px;
+      transition: opacity ease 0.1s, background ease 0.1s;
+    }
+    &:hover {
+      .close-icon,
+      &.modified .close-icon,
+      &.modified:not(:hover) .close-icon {
+        color: @text-color;
+        opacity: 1;
+      }
+    }
+    .close-icon,
+    &.modified .close-icon,
+    &.modified:not(:hover) .close-icon {
+      &:hover {
+        background: fade(@lighter-color, 8%);
+      }
+    }
+    .close-icon::before {
+      content: '';
+      position: relative;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      opacity: .7;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cpath fill='%23FFF' d='M0.152012026,0.152012026 C0.354694727,-0.0506706753 0.683308314,-0.0506706753 0.885991015,0.152012026 L0.885991015,0.152012026 L4,3.267 L7.11400899,0.152012026 C7.31669169,-0.0506706753 7.64530527,-0.0506706753 7.84798797,0.152012026 C8.05067068,0.354694727 8.05067068,0.683308314 7.84798797,0.885991015 L4.733,4 L7.84798797,7.11400899 C8.02815038,7.29417139 8.04816842,7.57383473 7.90804211,7.77610846 L7.84798797,7.84798797 C7.64530527,8.05067068 7.31669169,8.05067068 7.11400899,7.84798797 L7.11400899,7.84798797 L4,4.733 L0.885991015,7.84798797 C0.683308314,8.05067068 0.354694727,8.05067068 0.152012026,7.84798797 C-0.0506706753,7.64530527 -0.0506706753,7.31669169 0.152012026,7.11400899 L3.267,4 L0.152012026,0.885991015 C-0.0281503752,0.705828614 -0.0481684197,0.426165266 0.0919578922,0.223891544 Z'/%3E%3C/svg%3E%0A");
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+
+    &.is-dragging {
+      background: darken(@tab-background-color, 10%);
+      border-color: transparent;
+      opacity: 0.5;
+      & .close-icon {
+        visibility: hidden;
+      }
+    }
+
+    .title {
+      padding: 0 !important;
+    }
+
+    [class*="icon-"]::before {
+      font-size: 13px;
+    }
+  }
+}
+
+.hypest-close-right {
+  .tab-bar .tab {
+    .close-icon,
+    &.modified .close-icon,
+    &.modified:not(:hover) .close-icon {
+      right: 6px;
+      left: auto;
+    }
+    &.modified::after {
+      left: 9px;
+      right: auto;
+    }
+  }
+}
+
+.is-blurred {
+  .tab-bar {
+    background: @title-bar-stop-2;
+  }
+
+  .tab {
+    color: @text-color-subtle;
+    box-shadow: inset 0 -1px 0 0 fade(@mid-color, 30%);
+    transition: none;
+
+    &.active {
+      color: @text-color-subtle;
+      box-shadow: 1px 0 0 fade(@mid-color, 30%), -1px 0 0 fade(@mid-color, 30%), inset 0 -1px 0 0 fade(@mid-color, 30%);
+      background: @dark-color;
+    }
+  }
+}
+
+atom-panel-container.left,
+atom-panel-container.right,
+atom-panel-container.bottom {
+  .tab-bar {
+    overflow-x: auto;
+    overflow-y: hidden;
+    background: transparent;
+    border-radius: 0;
+
+    .tab {
+      color: fade(@text-color-subtle, 60%);
+      background: @tab-background-color;
+      box-shadow: inset 0 -1px 0 @mid-color, 1px 0 0 @mid-color;
+
+      &:hover {
+        color: @text-color;
+        background: @dark-color;
+      }
+
+      &.active {
+        color: @text-color;
+        font-weight: 500;
+        background: @dark-color;
+        box-shadow: inset 0 -1px 0 @mid-color, 1px 0 0 @mid-color;
+      }
+
+      &[data-type="TreeView"]:only-child {
+        text-align: left !important;
+        background: @dark-color !important;
+        box-shadow: none !important;
+        padding: 2px 10px 0;
+
+        .title {
+          font-weight: 600;
+          color: fade(@text-color, 50%);
+        }
+
+        .close-icon {
+          left: auto;
+          right: 6px;
+        }
+      }
+    }
+  }
+}
+
+body:hover .tab {
+  transition: ease 0.2s;
+}
+
+.tab-bar::-webkit-scrollbar {
+  height: 0 !important;
+}

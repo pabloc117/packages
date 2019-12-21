@@ -1,0 +1,46 @@
+{
+  "_from": "https://www.atom.io/api/packages/c3po-syntax/versions/0.2.0/tarball",
+  "_id": "C3PO-syntax@0.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-ftvdDmA05bMoH1PGHjJQU9C09zd6ZL84c114HO5UFysRm3HLirg6G2d2Dq7TUr0v1UE7doHSBIe0JdyaVPJE0Q==",
+  "_location": "/C3PO-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/c3po-syntax/versions/0.2.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/c3po-syntax/versions/0.2.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/c3po-syntax/versions/0.2.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/c3po-syntax/versions/0.2.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/c3po-syntax/versions/0.2.0/tarball",
+  "_shasum": "f72a5b4aac3ca3724430ab1c8e7f4e9d489249c8",
+  "_spec": "https://www.atom.io/api/packages/c3po-syntax/versions/0.2.0/tarball",
+  "_where": "C:\\Users\\pablo\\AppData\\Local\\Temp\\apm-install-dir-1191120-5744-gre5bn.6hdp5",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "C3PO star wars syntax theme for atom.io",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "keywords": [
+    "atom.io",
+    "syntax",
+    "theme",
+    "star wars",
+    "C3PO",
+    "@jwranton",
+    "jwranton.pro"
+  ],
+  "license": "MIT",
+  "name": "C3PO-syntax",
+  "repository": {
+    "type": "git",
+    "url": "hhttps://github.com/JWRanton/C3PO-syntax"
+  },
+  "theme": "syntax",
+  "version": "0.2.0"
+}

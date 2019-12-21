@@ -1,0 +1,288 @@
+// Buttons
+// -------------------
+
+// Overrides: atom/atom/static/buttons.less
+
+.btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: @text-color;
+  font-weight: 500;
+  height: auto;
+  min-height: 28px;
+  line-height: 28px;
+  background: linear-gradient(@white-color, @lighter-color);
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px fade(@black-color, 15%),
+    0 1px 2px fade(@black-color, 10%);
+
+  &.btn-xs {
+    min-height: 20px;
+    line-height: 20px;
+  }
+
+  &.btn-sm {
+    min-height: 24px;
+    line-height: 24px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  &.btn-lg {
+    border-radius: 6px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  &:hover,
+  &:focus {
+    color: @text-color-highlight;
+    background-color: @button-background-color-hover;
+  }
+
+  &:active {
+    color: @text-color;
+    background: @light-color;
+    box-shadow: 0 0 0 1px fade(@black-color, 15%),
+      inset 0 1px 0 fade(@black-color, 5%);
+  }
+
+  &.disabled,
+  &[disabled] {
+    color: @text-color-subtle;
+    background: @light-color;
+    box-shadow: 0 0 0 1px fade(@black-color, 10%) !important;
+  }
+
+  &.is-installing,
+  &.is-uninstalling {
+    position: relative;
+    background: transparent !important;
+    overflow: hidden;
+
+    &::after {
+      content: '';
+      position: absolute;
+      left: -46px;
+      top: 0;
+      bottom: 0;
+      right: 0;
+
+      background: repeating-linear-gradient(-55deg,
+        fade(@dark-color, 10%) 1px,
+        fade(@dark-color, 20%) 2px,
+        fade(@dark-color, 20%) 11px,
+        fade(@dark-color, 10%) 12px,
+        fade(@dark-color, 10%) 20px) !important;
+
+      animation-name: stripey !important;
+    	animation-duration: 1s !important;
+    	animation-timing-function: linear !important;
+    	animation-iteration-count: infinite !important;
+    }
+  }
+
+  @keyframes stripey {
+    from {
+  		transform: translateX(0);
+  	}
+  	to {
+  		transform: translateX(46px);
+  	}
+  }
+
+  &.selected {
+    color: @text-color-selected;
+    background: @blue-color;
+    box-shadow: 0 0 0 1px darken(@blue-color, 5%);
+    &:hover,
+    &:focus {
+      color: @text-color-selected;
+      background: @blue-color;
+    }
+    &:active {
+      color: @text-color-selected;
+      background: @blue-color;
+      box-shadow: 0 0 0 1px darken(@blue-color, 5%);
+    }
+  }
+
+  &:focus,
+  &:focus:active {
+    outline: none;
+  }
+
+  &.btn-primary {
+    background: linear-gradient(lighten(@blue-color, 10%), @blue-color);
+    box-shadow: 0 0 0 1px darken(@blue-color, 5%),
+      0 1px 2px fade(@black-color, 20%);
+    &:hover {
+      background: linear-gradient(lighten(@blue-color, 10%), @blue-color);
+      box-shadow: 0 0 0 1px darken(@blue-color, 5%),
+        0 1px 2px fade(@black-color, 20%);
+    }
+    &:active {
+      background: @blue-color !important;
+      box-shadow: 0 0 0 1px darken(@blue-color, 15%),
+        inset 0 1px 0 fade(@black-color, 5%);
+    }
+  }
+
+  &.btn-info {
+    background: linear-gradient(lighten(@blue-color, 10%), @blue-color);
+    box-shadow: 0 0 0 1px darken(@blue-color, 5%),
+      0 1px 2px fade(@black-color, 20%);
+    &:hover {
+      background: linear-gradient(lighten(@blue-color, 10%), @blue-color);
+      box-shadow: 0 0 0 1px darken(@blue-color, 5%),
+        0 1px 2px fade(@black-color, 20%);
+    }
+    &:active {
+      background: @blue-color !important;
+      box-shadow: 0 0 0 1px darken(@blue-color, 15%),
+        inset 0 1px 0 fade(@black-color, 5%);
+    }
+  }
+
+  &.btn-success {
+    background: linear-gradient(lighten(@green-color, 5%), @green-color);
+    box-shadow: 0 0 0 1px darken(@green-color, 5%),
+      0 1px 2px fade(@black-color, 20%);
+    &:hover {
+      background: linear-gradient(lighten(@green-color, 5%), @green-color);
+      box-shadow: 0 0 0 1px darken(@green-color, 5%),
+        0 1px 2px fade(@black-color, 20%);
+    }
+    &:active {
+      background: @green-color !important;
+      box-shadow: 0 0 0 1px darken(@green-color, 15%),
+        inset 0 1px 0 fade(@black-color, 5%);
+    }
+  }
+
+  &.btn-warning {
+    background: linear-gradient(lighten(@orange-color, 10%), @orange-color);
+    box-shadow: 0 0 0 1px darken(@orange-color, 5%),
+      0 1px 2px fade(@black-color, 20%);
+    &:hover {
+      background: linear-gradient(lighten(@orange-color, 10%), @orange-color);
+      box-shadow: 0 0 0 1px darken(@orange-color, 5%),
+        0 1px 2px fade(@black-color, 20%);
+    }
+    &:active {
+      background: @orange-color !important;
+      box-shadow: 0 0 0 1px darken(@orange-color, 15%),
+        inset 0 1px 0 fade(@black-color, 5%);
+    }
+  }
+
+  &.btn-error {
+    background: linear-gradient(lighten(@red-color, 5%), @red-color);
+    box-shadow: 0 0 0 1px darken(@red-color, 5%),
+      0 1px 2px fade(@black-color, 20%);
+    &:hover {
+      background: linear-gradient(lighten(@red-color, 5%), @red-color);
+      box-shadow: 0 0 0 1px darken(@red-color, 5%),
+        0 1px 2px fade(@black-color, 20%);
+    }
+    &:active {
+      background: @red-color !important;
+      box-shadow: 0 0 0 1px darken(@red-color, 25%),
+        inset 0 1px 0 fade(@black-color, 5%);
+    }
+  }
+
+  &.btn-primary,
+  &.btn-info,
+  &.btn-success,
+  &.btn-warning,
+  &.btn-error {
+    &.disabled,
+    &[disabled] {
+      color: @text-color-subtle;
+      background: @light-color;
+      box-shadow: 0 0 0 1px fade(@black-color, 10%) !important;
+
+      &:hover {
+        color: @text-color-subtle;
+        background: @light-color;
+        box-shadow: 0 0 0 1px fade(@black-color, 10%) !important;
+      }
+    }
+  }
+
+  &.icon {
+    &:before {
+      position: relative;
+      top: -1px;
+    }
+  }
+}
+
+.btn-group {
+  > .btn {
+    border: none;
+  }
+
+  > .btn:first-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+
+  > .btn:last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+}
+
+.btn-group .btn + .btn,
+.btn-group .btn + .btn-group,
+.btn-group .btn-group + .btn,
+.btn-group .btn-group + .btn-group {
+  margin-left: 1px;
+}
+
+// Colored buttons -----------------------
+
+.btn.btn-primary {
+  .btn-color(@background-color-info);
+}
+.btn.btn-info {
+  .btn-color(@background-color-info);
+}
+.btn.btn-success {
+  .btn-color(@background-color-success);
+}
+.btn.btn-warning {
+  .btn-color(@background-color-warning);
+}
+.btn.btn-error {
+  .btn-color(@background-color-error);
+}
+
+.btn-color(@bg) {
+  color: @text-color-selected;
+  background-color: @bg;
+  &:hover,
+  &:focus {
+    background-color: lighten(@bg, 4%);
+  }
+  &:active {
+    background-color: darken(@bg, 4%);
+  }
+  &.selected {
+    background-color: lighten(@bg, 4%);
+  }
+  &.selected:focus,
+  &.selected:hover {
+    background-color: lighten(@bg, 8%);
+  }
+}
+
+// Button Group -----------------------
+
+.btn-group > .btn {
+  border-color: hsla(0, 0%, 0%, 0.2);
+}
